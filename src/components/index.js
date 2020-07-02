@@ -1,5 +1,5 @@
-import Header from "./Header/Header";
-import About from "./Header/Header";
-import Contact from "./Header/Header";
+import Home from "./Home/Home";
+import About from "./About/About";
+import Contact from "./Contact/Contact";
 
-export { Header, About, Contact };
+export { Home, About, Contact };

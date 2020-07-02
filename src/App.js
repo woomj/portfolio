@@ -1,15 +1,18 @@
 import React, { Component } from "react";
-import { Header } from "./components";
+import "./App.css";
+import { Home, About, Contact } from "component";
 
 class App extends Component {
-  render() {
-    return (
-      <div>
-        <Header />
-        <Link "/link" About />
-      </div>
-    );
-  }
+    render() {
+        return (
+            <div>
+                <NavBar />
+                <Home />
+                <About />
+                <Contact />
+            </div>
+        );
+    }
 }
 
 export default App;
